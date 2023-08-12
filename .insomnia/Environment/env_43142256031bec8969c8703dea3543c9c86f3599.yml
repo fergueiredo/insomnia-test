@@ -1,0 +1,30 @@
+_id: env_43142256031bec8969c8703dea3543c9c86f3599
+type: Environment
+parentId: wrk_9444f4a5f5b0459e8be4eae3816d7401
+modified: 1691836434102
+created: 1691836279765
+name: Base Environment
+data:
+  petStatus:
+    AVAILABLE: available
+    PENDING: pending
+    SOLD: sold
+  orderStatus:
+    PLACED: placed
+    APPROVED: approved
+    DELIVERED: delivered
+dataPropertyOrder:
+  "&":
+    - petStatus
+    - orderStatus
+  "&~|petStatus":
+    - AVAILABLE
+    - PENDING
+    - SOLD
+  "&~|orderStatus":
+    - PLACED
+    - APPROVED
+    - DELIVERED
+color: null
+isPrivate: false
+metaSortKey: 1691836279765
