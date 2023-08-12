@@ -1,0 +1,25 @@
+_id: req_d99655f25fac4d6e9153a41e9f155407
+type: Request
+parentId: wrk_9444f4a5f5b0459e8be4eae3816d7401
+modified: 1691836771050
+created: 1691836501367
+url: "{{ _.basePath }}/pet/findByStatus"
+name: FETCH_PETS_BY_STATUS
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_a759246b35294b11a5dc107846d09891
+    name: status
+    value: "{{ _.petStatus.AVAILABLE }}"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1691836501367
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
