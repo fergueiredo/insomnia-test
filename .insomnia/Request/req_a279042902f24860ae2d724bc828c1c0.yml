@@ -1,0 +1,25 @@
+_id: req_a279042902f24860ae2d724bc828c1c0
+type: Request
+parentId: wrk_9444f4a5f5b0459e8be4eae3816d7401
+modified: 1691836746325
+created: 1691836594862
+url: "{{ _.basePath }}/pet/findByTags"
+name: FETCH_PETS_BY_TAGS
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_5fe40671830a4bfe84c618bfe09cdedf
+    name: tags
+    value: Bizcocho
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1691836594862
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
